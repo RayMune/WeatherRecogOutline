@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Climate Change Data</h1>
+    <p>Uploaded image: {{ filename }}</p>
+    <h2>Climate Change Information</h2>
+    <ul>
+        <li>Temperature: {{ climate_data.temperature }}</li>
+        <li>Humidity: {{ climate_data.humidity }}</li>
+        <li>Sea Level: {{ climate_data.sea_level }}</li>
+    </ul>
+</body>
+</html>
